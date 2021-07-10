@@ -57,3 +57,28 @@ h3{
     width: 100%;
     padding-top: 2rem;
 }
+.navegacion a{
+    color: var(--claro);
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navegacion a:hover{
+    text-shadow: 1px 1px var(--azul);
+}
+
+.contenido-hero{
+    display: grid;
+    grid-template-columns: 5% auto 5%;
+    grid-template-rows: max-content auto;
+}
+.contenido-hero h1{
+    grid-column:  2/3;
+    color: var(--claro);
+}
+.contenido-hero form{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
