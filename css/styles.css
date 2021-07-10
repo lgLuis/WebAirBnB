@@ -8,3 +8,52 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+:root{
+    --fuentePpal:'IBM Plex Sans Condensed', sans-serif;
+    --blanco:#ffff;
+    --negro:#0000;
+    --gris:#a5a58d;
+    --claro:#edf6f9;
+    --rojo:#d90429;
+    --verde:#55a630;
+    --azul:#00509d;
+}
+body{
+    font-family: var(--fuentePpal);
+}
+h1{
+    font-size: 2.6rem;
+    font-weight: 650;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+/**/
+
+.contenedor{
+    width: 110rem;
+    margin: 0 auto;
+}
+.hero{
+    height: 100vh;
+    background-image: url(/img/arriba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+}
