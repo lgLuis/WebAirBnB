@@ -38,7 +38,7 @@ h3{
 /**/
 
 .contenedor{
-    width: 110rem;
+    width: 100rem;
     margin: 0 auto;
 }
 .hero{
@@ -57,6 +57,7 @@ h3{
     width: 100%;
     padding-top: 2rem;
 }
+/*MENU*/
 .navegacion a{
     color: var(--claro);
     text-decoration: none;
@@ -85,7 +86,7 @@ h3{
     display: flex;
     height: 4rem;
 }
-
+/*INPUT*/
 form input[type="text"]{
     flex: 1;
     border: none;
@@ -109,3 +110,32 @@ form input[type="submit"]{
 form input[type="submit"]:hover{
     cursor: pointer;
 }
+
+/*CARDS*/
+.contenedor-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+.card img{
+    max-height: 160px;
+}
+.info .categoria{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--rojo);
+    /* border-bottom: 1px solid var(--rojo); */
+
+}
+.info .titulo{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+}
+.info .precio{
+    color: var(--azul);
+    font-size: 1.2rem ;
+    font-weight: bolder;
+}
+
