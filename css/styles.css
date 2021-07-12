@@ -35,7 +35,7 @@ h3{
     font-size: 1.6rem;
 }
 
-/**/
+/*INTERFAZ*/
 .contenedor{
     width: 100rem;
     margin: 0 auto;
@@ -55,6 +55,25 @@ h3{
     align-items: center;
     width: 100%;
     padding-top: 2rem;
+}
+
+.btn-flotante{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: var(--gris);
+    padding: .5rem 2rem;
+    text-decoration: none;
+    color: var(--claro);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    -webkit-box-shadow: 5px 5px 15px 5px #B8B8B8; 
+    box-shadow: 5px 5px 15px 5px #B8B8B8;
+    transition:  all .5s ease-in-out;
+}
+.btn-flotante .activo,
+.btn-flotante:hover{
+    background-color: var(--rojo);
 }
 /*MENU*/
 .navegacion a{
