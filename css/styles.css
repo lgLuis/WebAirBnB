@@ -111,6 +111,27 @@ form input[type="submit"]:hover{
     cursor: pointer;
 }
 
+.boton{
+    background-color: var(--verde);
+    display: block;
+    padding: 1.2rem;
+    color: var(--claro);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border: 1px solid var(--verde);
+    -webkit-box-shadow: 5px 5px 15px 5px #B8B8B8; 
+    box-shadow: 5px 5px 15px 5px #B8B8B8;
+    transition:  all .5s ease-in-out;
+}
+.boton:hover{
+    color: var(--verde);
+    background-color: var(--claro);
+}
+
 /*CARDS*/
 .contenedor-cards{
     display: grid;
@@ -177,5 +198,5 @@ form input[type="submit"]:hover{
     .premium .info h3{
         text-align: right;
     }
-
 }
+
