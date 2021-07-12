@@ -36,7 +36,6 @@ h3{
 }
 
 /**/
-
 .contenedor{
     width: 100rem;
     margin: 0 auto;
@@ -137,6 +136,7 @@ form input[type="submit"]:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
+    margin-top: 7rem;
 }
 .card img{
     max-height: 160px;
@@ -200,3 +200,20 @@ form input[type="submit"]:hover{
     }
 }
 
+/*DESTINOS*/
+
+.destinos .contenedor-cards{
+    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+}
+
+.destinos .card{
+    position: relative;
+}
+.destinos .info{
+    position: absolute;
+    border: 1rem;
+    left: 1rem;
+}
+.destinos .info .titulo{
+    font-size: 2rem;
+}
