@@ -83,9 +83,10 @@ h3{
     font-size: 1.6rem;
     font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 2px 2px var(--gris);
 }
 .navegacion a:hover{
-    text-shadow: 1px 1px var(--azul);
+    text-shadow: 2px 2px var(--azul);
 }
 
 .contenido-hero{
