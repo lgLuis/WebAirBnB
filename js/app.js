@@ -11,11 +11,12 @@ document.addEventListener("DOMContentLoaded", ()=>{
         console.log(footer.classList); //Revisamos que exista una clase
         if(footer.classList.contains("activo")){
             footer.classList.remove("activo");
-
+            btnFlotante.classList.remove("activo");
+            btnFlotante.innerText="Idioma y moneda";
         }else{
-            footer.classList.add("activo")
+            footer.classList.add("activo");
+            btnFlotante.classList.add("activo");
+            btnFlotante.innerText="X Cerrar";
         }
-
     })
-
 });
